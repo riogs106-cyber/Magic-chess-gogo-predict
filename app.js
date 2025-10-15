@@ -1,3 +1,4 @@
+import { supabase } from './supabase.js'
 async function addMatch() {
   const id = document.getElementById("opponent_id").value.trim();
   const name = document.getElementById("opponent_name").value.trim();
