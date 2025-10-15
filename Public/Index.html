@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Magic Chess Predictor</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body { font-family: Arial; padding: 20px; max-width: 700px; margin:auto; }
+    input, button { padding: 8px; margin: 5px 0; width: 100%; }
+    pre { background: #f0f0f0; padding: 10px; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <h1>Magic Chess Predictor</h1>
+  <p>Tambah data match:</p>
+  <input id="opponent_id" placeholder="Opponent ID">
+  <input id="opponent_name" placeholder="Nama lawan (opsional)">
+  <button onclick="addMatch()">Tambah Match</button>
+  <button onclick="predict()">Prediksi Lawan Berikutnya</button>
+  <pre id="result"></pre>
+
+  <script src="app.js"></script>
+</body>
+</html>
