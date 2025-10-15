@@ -1,0 +1,10 @@
+{
+  "name": "magic-chess-predictor",
+  "version": "1.0.0",
+  "description": "Website prediksi lawan berikutnya di Magic Chess GoGo",
+  "main": "api/predict.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {}
+}
